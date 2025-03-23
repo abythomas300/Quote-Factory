@@ -22,19 +22,21 @@ html{
 }
 .header{
     display: flex;
+    flex: 1;
     background-color: #8F87F1;
     color: aliceblue;
-    font-size: larger;
+    font-size: xx-large;
     font-weight: bold;
-    padding: 10px 10px;
+    padding: 40px 40px;
     justify-content: center;
 }
 .sub-header{
     display: flex;
+    flex: 1;
     background-color: #C68EFD;
     padding: 0.5em;
     font-weight: light;
-    font-size: xx-small ;
+    font-size: large ;
     font-style: italic;
     justify-content: center;
 }
@@ -48,15 +50,39 @@ html{
 
 .hero-container{
     display: flex;
+    flex: 1;
+    margin: 8em 8em;
 }
 .quote{
     display: flex;
     flex: 1;
-    padding: 2em 2em;
+    padding: 5em 5em;
     background-color: #FED2E2;
     justify-content: start;
-    margin-top: 5em;
     border-radius: 10px;
     font-style: italic;
     font-weight: 400;
+    font-size: x-large;
+}
+
+.footer-container{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: #8F87F1;
+    color: #fff;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: auto;
+
+}
+.name{
+    font-family: monospace;
+    font-style: italic;
+    font-size: 1.3em;
+    padding: 0px 10px;
+    color: #FED2E2;
+}
+.footer-container a{
+    text-decoration: none; 
 }
