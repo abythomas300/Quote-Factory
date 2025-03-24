@@ -51,7 +51,8 @@ html{
 .hero-container{
     display: flex;
     flex: 1;
-    margin: 8em 8em;
+    margin-top: 8em;
+    margin-bottom: 2em;
 }
 .quote{
     display: flex;
@@ -86,3 +87,33 @@ html{
 .footer-container a{
     text-decoration: none; 
 }
+
+.button-div{
+    margin-bottom: 4em;
+    display: flex;
+    flex: 1;
+    font-size: xx-large;
+    font-weight: bold;
+    justify-content: center;
+}
+.button{
+    background: #8F87F1;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+.front{
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: #6c60f3;
+    color: white;
+    transform: translateY(-6px);
+}
+.button:active .front{
+    transform: translateY(-2px);
+}
+
