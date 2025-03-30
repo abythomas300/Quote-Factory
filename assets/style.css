@@ -14,7 +14,10 @@ html{
 *::after{
     box-sizing: border-box;
 }
-
+body{
+    background-image: url(pandora-flower.jpg);
+    background-repeat:no-repeat;
+}
 .headers-container{
     display: flex;
     flex-direction: column;
@@ -72,6 +75,8 @@ html{
     font-size: xx-large;
     max-height: 5em;
     color: #fff;  
+    opacity: 0.8;
+    
 }
 .author{
     display: flex;
@@ -85,6 +90,7 @@ html{
     font-size: x-large; 
     color: #070707;
     box-shadow: 5.9px 11.8px 11.8px hsla(0, 0%, 0%, 0.8);
+    opacity: 0.8;
 }
 
 .footer-container{
