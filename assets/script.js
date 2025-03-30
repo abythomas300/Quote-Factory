@@ -10,7 +10,7 @@ const quotes = [{ text: "You have to believe in yourself when no one else does."
     { text: "It does not matter how slowly you go, as long as you do not stop.", author: "Confucius" }
 ];
 const quoteBody = document.querySelector(".quote");
-const author = document.querySelector(".athr");
+const author = document.querySelector(".author");
 const generateBtn = document.querySelector(".button");
 //add event listener to 'Generate Quote' button
 generateBtn.addEventListener("click",pickQuote);

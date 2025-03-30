@@ -67,7 +67,7 @@ html{
     font-size: xx-large;
     max-height: 5em;  
 }
-.athr{
+.author{
     display: flex;
     padding: 1em;
     background-color: #FED2E2;
