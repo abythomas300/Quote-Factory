@@ -55,6 +55,8 @@ html{
     flex-direction: column;
     margin-top: 8em;
     margin-bottom: 2em;
+    padding: 2em 2em;
+    
 }
 
 .quote{
@@ -62,6 +64,8 @@ html{
     flex: 1;
     padding: 3em 2em;
     background-color: #52489f;
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em;
     justify-content: center;
     font-style: italic;
     font-weight: 400;
@@ -73,13 +77,15 @@ html{
     display: flex;
     padding: 1em;
     background-color: #52489ff8;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
     justify-content: center;
     font-style: italic;
     font-weight: 400;
     font-size: x-large; 
     color: #070707;
+    box-shadow: 5.9px 11.8px 11.8px hsla(0, 0%, 0%, 0.8);
 }
-
 
 .footer-container{
     display: flex;
