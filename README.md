@@ -60,7 +60,7 @@ Quote Factory is a clean, responsive, and aesthetic random quote generator built
 
 ## 👨‍💻 Author
 
-Built with 💙 and Passion by [**Aby Thomas**](https://abythomas.netlify.app)
+Built with 💙 and Passion by [**Aby Thomas**](https://abythomas.netlify.app) <br/>
 [Github](https://github.com/abythomas300) • [LinkedIn](www.linkedin.com/in/abythomas300)
 
 ---
